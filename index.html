@@ -12,12 +12,40 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <style>
+    h1 {
+      margin: 0;
+      text-align: center;
+    }
+    
+    .jumbotron {
+      padding: 0;
+    }
+    
+    img {
+      float: left;
+    }
+    
+    msgpan {
+      font-size: 20px;
+    }
+    
+    p {
+      text-align: center;
+    }
+    
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #f0ad4e;
+    }
+  </style>
 </head>
 
 <body>
-  <div class="container">
-    <h3 class="text-muted">online bootcamp</h3>
-    <h5 class="text-muted">課題作品</h5>
+  <div class="container-fluid">
+    <h1 class="bg-primary">genkamata.github.io</h1>
     <div class="header clearfix">
       <nav>
         <ul class="nav nav-pills pull-right">
@@ -30,103 +58,85 @@
     </div>
 
     <div class="jumbotron">
-      <h1>genkamata.github.io</h1>
-      <p class="lead">自己紹介文</p>
-      <p><a class="btn btn-lg btn-success" href="http://genkamata.github.io" role="button">View ON GitHub</a></p>
+      <h2>プロフィール</h2>
+      <img class="img-circle" src="profile.JPG" alt="顔写真" width="360" height="270">
+      <p>鎌田　弦（KAMATA GEN）</p>
+      <p>1979年4月26日生（36歳）</p>
+      <p>大阪府堺市在住</p>
+      <p>ネットワークエンジニア</p>
+      <p>プログラミング経験なし</p>
+
+      <p><a class="btn btn-lg btn-success" href="https://github.com/genkamata" role="button">View ON GitHub &raquo;</a></p>
     </div>
 
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-      <div class="col-md-3">
-        <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100" height="100">
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+    <!-- START THE FEATURETTES -->
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h3 class="featurette-heading">APIサービス</h3>
+        <div>
+          <span class="glyphicon glyphicon-pencil">概要</span>
+        </div>
       </div>
-      <!-- /.col-lg-3 -->
-      <div class="col-md-3">
-        <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100" height="100">
-        <h2>Heading</h2>
-        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-      </div>
-      <!-- /.col-lg-3 -->
-      <div class="col-md-3">
-        <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100" height="100">
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-      </div>
-      <!-- /.col-lg-3 -->
-      <div class="col-md-3">
-        <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100" height="100">
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      <div class="col-md-5">
+        <img class="img-thumbnail" src="..." alt="イメージ">
       </div>
     </div>
-  <!-- /.row -->
 
-  <!-- START THE FEATURETTES -->
+    <hr class="featurette-divider">
 
-  <hr class="featurette-divider">
-
-  <div class="row featurette">
-    <div class="col-md-7">
-      <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    <div class="row featurette">
+      <div class="col-md-7 col-md-push-5">
+        <h3 class="featurette-heading">Twitterクローン</h3>
+        <div>
+          <span class="glyphicon glyphicon-pencil">概要</span>
+        </div>
+      </div>
+      <div class="col-md-5 col-md-pull-7">
+        <img class="img-thumbnail" src="..." alt="イメージ">
+      </div>
     </div>
-    <div class="col-md-5">
-      <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-    </div>
-  </div>
 
-  <hr class="featurette-divider">
+    <hr class="featurette-divider">
 
-  <div class="row featurette">
-    <div class="col-md-7 col-md-push-5">
-      <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h3 class="featurette-heading">APIサービス</h3>
+        <div>
+          <span class="glyphicon glyphicon-pencil">概要</span>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <img class="img-thumbnail" src="..." alt="イメージ">
+      </div>
     </div>
-    <div class="col-md-5 col-md-pull-7">
-      <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-    </div>
-  </div>
 
-  <hr class="featurette-divider">
+    <hr class="featurette-divider">
 
-  <div class="row featurette">
-    <div class="col-md-7">
-      <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    <div class="row featurette">
+      <div class="col-md-7 col-md-push-5">
+        <h3 class="featurette-heading">オリジナルサービス</h3>
+        <div>
+          <span class="glyphicon glyphicon-pencil">概要</span>
+        </div>
+      </div>
+      <div class="col-md-5 col-md-pull-7">
+        <img class="img-thumbnail" src="..." alt="イメージ">
+      </div>
     </div>
-    <div class="col-md-5">
-      <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-    </div>
-  </div>
-  <div class="row featurette">
-    <div class="col-md-7 col-md-push-5">
-      <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-    </div>
-    <div class="col-md-5 col-md-pull-7">
-      <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-    </div>
-  </div>
-  <hr class="featurette-divider">
 
-  <!-- /END THE FEATURETTES -->
+    <hr class="featurette-divider">
 
-  <footer class="footer">
-    <p>&copy; 2015 Gen Kamata</p>
-  </footer>
+
+    <!-- /END THE FEATURETTES -->
+
+
+    <footer class="footer">
+      <p>&copy; 2015 Gen Kamata</p>
+    </footer>
 
   </div>
-
-
-
-
   <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
 </body>
 
 </html>
