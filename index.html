@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>鎌田弦@kamata/カマタ｜工事中</title>
-  <meta name="keywords" content="工事中1, 工事中2, 工事中3, 工事中4">
+  <meta name="keywords" content="工事中1, 工事中2, 工事中3">
   <link rel="stylesheet " type="text/css " href="reset.css " media="all ">
   <!-- Latest compiled and minified CSS -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css " rel="stylesheet ">
@@ -52,35 +52,37 @@
     <div class="header clearfix ">
       <nav>
         <ul class="nav nav-pills pull-right ">
-          <li role="presentation "><a href="# ">工事中1</a></li>
-          <li role="presentation "><a href="# ">工事中2</a></li>
-          <li role="presentation "><a href="# ">工事中3</a></li>
+          <li role="presentation "><a href="https://message-board-kamata.herokuapp.com">メッセージボード</a></li>
+          <li role="presentation "><a href="https://microposts-kamata.herokuapp.com">Twitterクローン</a></li>
+          <li role="presentation "><a href="https://my-cat-kamata.herokuapp.com">画像投稿アプリ</a></li>
         </ul>
       </nav>
     </div>
 
     <div class="jumbotron ">
       <h3 class="border-left ">プロフィール</h3>
-      <img class="img-circle " src="profile.JPG " alt="顔写真 " width="320" height="225"><br>
+      <img class="img-circle " src="profile.JPG " alt="顔写真 " width="280" height="220"><br>
       <h4>鎌田 弦（KAMATA GEN）</h4>
       <h4>1979年4月26日生（36歳）</h4>
       <h4>ネットワークエンジニア</h4>
       <h4>プログラミング経験なし</h4>
       <h4>WEBアプリ開発に挑戦中</h4>
-      <h4><a class="btn btn-lg btn-success " href="https://github.com/genkamata " role="button ">View ON GitHub &raquo;</a></h4>
+      <h4><a class="btn btn-lg btn-success" href="https://github.com/genkamata" role="button ">View ON GitHub &raquo;</a></h4>
     </div>
 
     <!-- START THE FEATURETTES -->
     <div class="row featurette ">
       <div class="col-md-7 ">
-        <h3 class="featurette-heading ">メッセージボード</h3>
+        <h3 class="featurette-heading"><a href="https://message-board-kamata.herokuapp.com">メッセージボード</a></h3>
         <div>
-          <span class="glyphicon glyphicon-pencil ">生まれて初めて作成したアプリケーションです。
+          <span class="glyphicon glyphicon-pencil ">概要</span><br>
+            <p>生まれて初めて作成したアプリケーションです。
              Railsを利用することで、データベースへのアクセスや、HTMLの描画、などを少ないコードで実現できました。
              ソースコードは、GitHubにリモートリポジトリを作成してアップロードしています。
-             Bootstrapを使って素早く見栄えを整えました。
-             アプリケーションはHerokuの無料ぷらんで動かしています。</span>
-          
+             また、Bootstrapを使って素早く見栄えを整えました。
+             アプリケーションはHerokuの無料プランで動かしています。
+             長期間アクセスがないと眠ってしまって、なかなかアクセスできません。。
+             </p>
         </div>
       </div>
       <div class="col-md-5 ">
@@ -92,13 +94,17 @@
 
     <div class="row featurette ">
       <div class="col-md-7 col-md-push-5 ">
-         <h3 class="featurette-heading ">Twitterクローン</h3>
+         <h3 class="featurette-heading "><a href="https://microposts-kamata.herokuapp.com">Twitterクローン</a></h3>
         <div>
-          <span class="glyphicon glyphicon-pencil ">概要</span>
+          <span class="glyphicon glyphicon-pencil ">概要</span><br>
+            <p>宇佐美SLから薦められ、<a href="http://railstutorial.jp">Ryby on Rails チュートリアル：実例を使ってRailsを学ぼう</a>
+            を実践しました。ほぼチュートリアルのとおり実装できましたが、herokuには画像データを保存できない為、プロフィール
+            の画像はアップロードしてもしばらく時間が経つと消えてしまいます。このチュートリアルは何度かやってみても勉強になります。
+            </p>
         </div>
       </div>
       <div class="col-md-5 col-md-pull-7 ">
-        <img class="img-thumbnail " src="microposts.JPG" alt="イメージ " width="330" height="230"><br>
+        <img class="img-thumbnail " src="microposts.JPG" alt="イメージ " width="320" height="230"><br>
       </div>
     </div>
 
@@ -106,13 +112,16 @@
 
     <div class="row featurette ">
       <div class="col-md-7 ">
-        <h5 class="featurette-heading ">オリジナルアプリ<h5>
+         <h3 class="featurette-heading"><a href="https://my-cat-kamata.herokuapp.com">画像投稿アプリ</a></h3>
         <div>
           <span class="glyphicon glyphicon-pencil ">概要</span>
+           <p>herokuには画像データを保存できないと知り、AWSのS3を使って画像データを保存する事にしました。
+           　中途半端な作りかけですが、体調と相談しながらが完成させたいと思います。
+            </p>
         </div>
       </div>
       <div class="col-md-5 ">
-        <img class="img-thumbnail " src="my-cat-app.JPG" alt="イメージ " width="330" height="230"><br>
+        <img class="img-thumbnail " src="my-cat-app.JPG" alt="イメージ " width="320" height="230"><br>
       </div>
     </div>
 
